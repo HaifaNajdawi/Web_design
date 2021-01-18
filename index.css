@@ -1,0 +1,35 @@
+body{background-color: white;}
+
+span{
+    background-color: teal;
+    color: white;
+    font-style:initial;
+}
+
+.topnav {
+    
+    
+    color: rgb(179, 27, 27);
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    
+}
+/* .dropbtn {
+    
+    color: darkgray;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+   */
+  .place{
+      position: relative;
+      top: 0%;;
+       
+  }
+  /* li{
+      float: left;
+      background-color: white;
+  } */
