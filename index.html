@@ -51,25 +51,67 @@
         </div>
     </nav>
     <br>
-    <div class="main">
-        <h3 class="center">
-            Summary: Latitude vs. X
-        </h3>
-        <hr class="center-hr">
-        <br>
-        <p class=img-par><img src="Resources/assets/images/Fig1.png"height="400px" width="400px" alt="lat vs temp" ></p>
-        <p class="par-font" >The purpose of this project was to analyze how weather changes as you get closer to the equtor.To accomplish this analysis, we first pulled data fromOpenWeatherMap API to assemble a dataset on over 500 cities.<br><br> After assembling the dataset, we used Matplotlib to plot various aspect of the weather vs latitude.Factors we looked at included:temperature, cloudiness, wind speed, and humidity.This site provides the sourse data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-    </div>
-    <div class="vis-main">
-        <h3 class="center">
-            Visualizations
-        </h3>
-        <hr class="center-hr">
-        <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="main">
+                    <h3 class="center">
+                        Summary: Latitude vs. X
+                    </h3>
+                    <hr class="center-hr">
+                    <br>
+                    <p class=img-par><img src="Resources/assets/images/Fig1.png" height="400px" width="400px"
+                            alt="lat vs temp">
+                    </p>
+                    <p class="par-font">The purpose of this project was to analyze how weather changes as you get closer
+                        to
+                        the
+                        equtor.To accomplish this analysis, we first pulled data fromOpenWeatherMap API to assemble a
+                        dataset on
+                        over 500 cities.<br><br> After assembling the dataset, we used Matplotlib to plot various aspect
+                        of
+                        the
+                        weather vs latitude.Factors we looked at included:temperature, cloudiness, wind speed, and
+                        humidity.This
+                        site provides the sourse data and visualization created as part of the analysis, as well as
+                        explanations
+                        and descriptions of any trends and correlations witnessed.</p>
 
-    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="main">
+                    <h3 class="center">
+                        visualization
+                    </h3>
+                    <hr>
+                    <br>
+                    <div class="container">
+                        <div clas="row">
+                            <div class="col-6">
+                                <img src="Resources/assets/images/Fig1.png" height="200px" width="200px"
+                                    alt="temp vs lat">
+                            </div>
+                            <div class="col-6">
+                                <img src="Resources/assets/images/Fig2.png" class="rounded float-end" height="200px"
+                                    width="200px" alt="humidity vs lat">
+                            </div>
 
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <img src="Resources/assets/images/Fig3.png" class="rounded float-start" height="200px"
+                                    width="200px" alt="cloudiness vs lat">
+                                <img src="Resources/assets/images/Fig4.png" class="rounded float-end" height="200px"
+                                    width="200px" alt="wind vs lat">
 
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

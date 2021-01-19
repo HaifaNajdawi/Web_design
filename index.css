@@ -34,7 +34,7 @@ span{
     font-size: 35px;
     color: teal;
     font-weight: bolder;
-    padding-top: 25px;
+    
     padding-left: 15px;
    
 }
@@ -44,11 +44,11 @@ span{
     color: black;
 }  
 div.main{
-    position: relative;
-    background-color: white;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right:50%;
+   background-color: white;
+   /* margin for out side, padding for inside */
+    margin: 20px;
+    padding:15px;
+
 }
 .par-font{
     position: relative;
@@ -65,6 +65,13 @@ div.main{
     float:left;
     margin-left: 15px;
 }
-.vis-main{
+}
+.column {
     float: left;
 }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
