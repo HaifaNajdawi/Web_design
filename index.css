@@ -51,13 +51,10 @@ div.main{
 
 }
 .par-font{
-    position: relative;
     font-size: 18px;
     color:#417192;
     font-weight: bold;
     line-height: 40pt;
-    margin-left:15px;
-    margin-right:15px;
     text-align:justify;
     font-style:unset;
 }
@@ -65,7 +62,7 @@ div.main{
     float:left;
     margin-left: 15px;
 }
-}
+
 .column {
     float: left;
 }
@@ -74,4 +71,15 @@ div.main{
     clear: both;
     display: table;
   }
-  
+.vis main{
+    
+    padding-right:40px;
+}  
+.img-size{
+    width: 100%;
+  height: Auto;
+}
+.img-size-vis{
+    width:100%;
+    height:100%;
+}
