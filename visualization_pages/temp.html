@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar">
+
+
+        <a class="navbar-brand" href="http://127.0.0.1:5501/index.html"
+            style="background-color: teal; font-weight: bold;"> Latitude</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="nav navbar-nav navbar-right topnav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/visualization_pages/temp.html">Max
+                                Temperature</a>
+
+                            <a class="dropdown-item" href="visualization_pages/humidity.html">Humidity</a>
+
+                            <a class="dropdown-item" href="visualization_pages/cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="visualization_pages/wind.html">Wind Speed</a>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Comparisons.html">Comparison </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Data.html">Data </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <div class="main">
+                    <h3 class="center">
+                        Max Temperature
+                    </h3>
+                    <hr>
+                    <img src="../Resources/assets/images/Fig1.png" class="img-size" lat="temp vs lat">
+                    <p class="pstyle">
+                        An expected, the weather becomes significanlly warmer as one approaches the equater(0 Deg.
+                        Latitude). More
+                        interesting, however, is the fact that the southren hemisphere tends to be warmer this time of
+                        year
+                        than the
+                        northern hemispher. This may be due to the tilt of the earth at the time of year this data was
+                        gathered.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="main">
+                    <h3 class="center">
+                        Visualization
+                    </h3>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+
+
+                            <div class="col-sm-4 col-lg-6">
+                                <img src="../Resources/assets/images/Fig1.png" class="img-border" alt="temp vs lat">
+                            </div>
+                            <div class="col-sm-4 col-lg-6">
+                                <img src="../Resources/assets/images/Fig2.png" class="img-size-vis"
+                                    alt="humidity vs lat">
+                            </div>
+
+
+                            <div class="col-sm-4 col-lg-6">
+                                <img src="../Resources/assets/images/Fig3.png" class="img-size-vis"
+                                    alt="cloudiness vs lat">
+                            </div>
+                            <div class="col-sm-4 col-lg-6">
+                                <div class="middle">
+                                    <img src="../Resources/assets/images/Fig4.png" class="img-size-vis"
+                                        alt="wind vs lat">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
