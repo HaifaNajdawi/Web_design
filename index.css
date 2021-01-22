@@ -63,6 +63,7 @@ h4.font{
     font-family: 'Times New Roman', Times, serif;
 
 }
+
 h5.color{
     margin: 25px;
 }
@@ -98,7 +99,7 @@ h5.color{
 
 
 
-Change the color of links on hover
+/*Change the color of links on hover*/
 .navbar a:hover {
     background-color: teal;
     color:white;
