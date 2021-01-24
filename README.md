@@ -2,7 +2,7 @@
 
   ***
 
-### In this repositry you will find visualizations we've previously [created](https://github.com/HaifaNajdawi/Python-API)
+### In this repositry you will find visualizations we've previously [created](https://github.com/HaifaNajdawi/Python-API).
 
 ### In buliding dashboard, we created indviulaule page for each plot we did with our conclution for the relationship between latitude and each multi condions weather.
 
