@@ -13,31 +13,32 @@ body{
 
 /* latitude formating*/
  .navbar-brand {
-    color: #f9fafb;
-    font-style: initial;
+    color:white!important;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 35px;
     background-color: teal;
     border: 10px;
+    padding: 10px;
 
 }
 
 /* collapse color*/
 span{
     background-color: teal;
-    color: white;
-    font-style:initial;
+    color: darkgray;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .navbar{
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 15px;
 }
 /* headlines formating*/
 .center {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 15px;
     font-size: 35px;
     color: teal;
@@ -83,9 +84,7 @@ h5.color{
     padding:20px;
 }
 .img-border{
-    width:100%;
-    height:100%;
-    border: 2px solid teal;
+    border: 2px solid teal!important; 
 
 
 }
@@ -99,12 +98,8 @@ h5.color{
 
 .table-header{text-align: left}
 
-/* nav bar*/
-@media (min-width:600){
-    .nav-color{
-    background-color:rgb(5, 109, 83);
-}
-}
+
+
 
 
 
@@ -120,21 +115,32 @@ h5.color{
     display: none;
   }
 
-.navbar-light .navbar-brand{
+/* nav bar style*/
+.navbar-light{
     color:white;
-    margin-left: 11px;
+    margin-left: 0px;
     border: 1px solid; 
-    border-color: rgb(150, 172, 26); 
+    /* border-color: rgb(172, 97, 26);  */
 }
 
+/* nav bar larg screen*/
+.nav-color{
+    background-color:whitesmoke;
+}
 
+/* nav bar color after shrink */
+@media screen and (max-width:992px){
+    .nav-color{
+    background-color:teal;
+}
+}
 
 
 @media (min-width:576){
 .middle{
 display: flex;
-margin-left: auto;
-margin-right: auto;
+margin-left: 176;
+margin-right: 133;
 }
 }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
@@ -163,11 +169,4 @@ Show the link that contains should open and close the topnav (.icon) */
     color: darkgray;
     }
     .nav-link{color: darkgray;}
-}
-@media screen and (min-width: 600px) {
-    nav {background-color:darkcyan;}
-    .navbar-light .navbar-nav .nav-link {
-    color: teal;
-margin-left: 25px;
-}
 }
