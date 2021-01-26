@@ -13,7 +13,7 @@
  
 /* body color*/
 body{
-    background-color:#6f42c1;
+    background-color:cyan;
 }
 /* headlines formating*/
 .center {
@@ -21,7 +21,7 @@ body{
     margin-bottom: 20px;
     margin-left: 15px;
     font-size: 35px;
-    color: cyan;
+    color: #dc3545;
     font-weight: bolder;
     padding-left: 15px;
     
@@ -31,9 +31,15 @@ body{
     color:white!important;
     font-weight: bold;
     font-size: 35px;
-    background-color: pink;
+    background-color: rgb(146, 3, 3);
     border: 10px;
     padding: 10px;
+
+}
+h5.color{
+    margin: 25px;
+    color:#920303;
+    font-weight: bold;
 
 }
 .navbar{
@@ -44,17 +50,19 @@ body{
 /* pargraph formating*/
 .par-font{
     font-size: 18px;
-    color:#417192;
+    color:#555;
     font-weight: bold;
     line-height: 40pt;
     text-align:justify;
     font-style:unset;
-    color:cyan;
+    color:pink;
 }
 
 h4.font{
     text-align: center;
     color: #dc3545;
+    font-weight: bolder;
+
 }
 /* collapse color*/
 span{
@@ -62,7 +70,7 @@ span{
     color: darkgray;
 }
 .pstyle{
-    color:cyan;
+    color:#555;
     margin-bottom: 15px;
     text-align: center;
     margin-top:15px;
@@ -72,10 +80,20 @@ span{
 /* table header formating */
 .table-header{text-align: left}
 
+/* table sub-header formating */
+.nav-link{
+    color:#920303;
+
+}
+
+.sub-nav-color{
+    color:darkgreen!important;
+}
+
 /* pargraph formating*/
 .par-font{
     font-size: 18px;
-    color:cyan;
+    color:#920303;
     font-weight: bold;
     line-height: 40pt;
     text-align:justify;
@@ -87,12 +105,12 @@ span{
     color:white;
   } 
 .img-border{
-    border: 4px solid pink!important; 
+    border: 4px solid darkblue!important; 
 }
 /* nav bar color after shrink */
 @media screen and (max-width:992px){
     .nav-color{
-    background-color:pink;
+    background-color: rgb(146, 3, 3);
 }
 }
 
