@@ -13,7 +13,7 @@
  
 /* body color*/
 body{
-    background-color:cyan;
+    background-color:whitesmoke;
 }
 /* headlines formating*/
 .center {
@@ -46,6 +46,7 @@ h5.color{
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 15px;
+    margin:10px;
 }
 /* pargraph formating*/
 .par-font{
@@ -79,6 +80,14 @@ span{
 
 /* table header formating */
 .table-header{text-align: left}
+
+/*columns formating*/
+/* div.main{ */
+    /* background-color: white; */
+   /* margin for out side, padding for inside */
+    /* margin: 20px;
+    padding :15px;
+} */
 
 /* table sub-header formating */
 .nav-link{
